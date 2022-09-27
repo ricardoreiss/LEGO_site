@@ -1,0 +1,129 @@
+
+
+*{
+    font-family: Helvetica, Arial;
+    margin: 0;
+    padding: 0; 
+}
+
+/*cabeçalho*/
+header{
+	background-color: darkturquoise;
+	height: 150px;
+
+}
+
+div#logo{
+	font-size: 70px;
+	padding: 20px;
+	float: left;
+}
+
+div#menu{
+	font-size: 20px;
+	padding-top: 60px;
+	float: right;
+}
+
+div#menu a{
+	text-decoration: none;
+	color: black;
+	text-shadow: 1px 0.5px #111111;
+	padding: 70px 10px;
+}
+
+div#menu a:hover{
+	background-color: black;
+	color: darkturquoise;
+}
+
+/*div-principais*/
+.container{
+	clear: both;
+}
+
+#div-esquerda{
+	background-color: #2F4F4F;
+	height: 1500px;
+	float: left;
+	width: 20%;
+    
+}
+
+#div-direita{
+	background-color: gray;
+	float: right;
+	width: 80%;
+	height: 1500px;
+}
+
+/*informacoes-div-esquerda*/
+#paragrafo2{
+	font-size: 20px;
+	padding-left:10px;
+	padding-top: 10px;
+}
+
+#paragrafo3{
+	font-size: 30px;
+	padding-left: 10px;
+}
+
+/*imagens-div-esquerda*/
+div#div-esquerda img#imagem0{
+	margin-top: 80px;
+}
+
+/*imagens-div-direita*/
+div#div-direita img#imagem1{
+	width: 360px;
+	margin-left: 150px; 
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+div#div-direita img#imagem2{
+	width: 360px;
+	margin-left: 20px; 
+	margin-top: 20px;
+	margin-bottom: -100px;
+	border-radius: 10px; 
+}
+
+div#div-direita img#imagem3{
+	width: 360px;
+	margin-left: 150px; 
+	margin-top: 140px;
+	margin-bottom: 0px; 
+	border-radius: 10px;
+}
+
+div#div-direita img#imagem4{
+	width: 360px;
+	margin-left: 20px; 
+	margin-top: 0px;
+	margin-bottom: 100px; 
+	border-radius: 10px;
+}
+
+div#div-direita img#imagem5{
+	width: 360px;
+	margin-left: 300px; 
+	margin-top: 40px;
+	margin-bottom: 0px;
+	border-radius: 10px; 
+}
+
+/*rodapé*/
+footer{
+	clear: both;
+    color: black;
+    background-color: darkturquoise;
+    height: 50px;
+    text-align: center;
+}
+
+
+
+
+
