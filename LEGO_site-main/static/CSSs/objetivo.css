@@ -1,0 +1,74 @@
+*{
+    font-family: Helvetica, Arial;
+    margin: 0;
+    padding: 0; 
+}
+
+/*cabeçalho*/
+header{
+	background-color: darkturquoise;
+	height: 150px;
+
+}
+
+div#logo{
+	font-size: 70px;
+	padding: 20px;
+	float: left;
+}
+
+div#menu{
+	font-size: 20px;
+	padding-top: 60px;
+	float: right;
+}
+
+div#menu a{
+	text-decoration: none;
+	color: black;
+	text-shadow: 1px 0.5px #111111;
+	padding: 70px 10px;
+}
+
+div#menu a:hover{
+	background-color: black;
+	color: darkturquoise;
+}
+
+/*text*/
+div#objetivo{
+    background-image: url('../_images/Logomech.jpeg');
+    height: 700px;
+    background-size: 100%;
+    text-align: center;
+    padding: 100px 30px 0px 30px;
+}
+
+.efeito{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 10px;
+	text-shadow: 1px 1px 1px #111111;
+	width: 900px;
+}
+
+div#text-objetivo{
+	float: left;
+}
+
+div#imagem-direita{
+	float: right;
+}
+
+h1#apresentacao{
+	font-size: 50px;
+}
+
+/*rodapé*/
+footer{
+	clear: both;
+    color: black;
+    background-color: darkturquoise;
+    height: 50px;
+    text-align: center;
+}
